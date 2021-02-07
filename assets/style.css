@@ -1,7 +1,24 @@
-.navbar-text {
-    /* display: inline; */
+h1 {
+    color: plum;
 }
 
 .container {
-    margin: 20px;
+    padding: 25px;
+}
+
+.resume:hover .fa-file:before {
+    content: "\f15c";
+}
+
+.accordion-button:not(.collapsed) {
+    color: indigo;
+    background-color: thistle;
+}
+
+#contact {
+    padding: 0px;
+}
+
+.email:hover .fa-envelope:before {
+    content: "\f2b6";
 }
